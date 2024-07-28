@@ -1,24 +1,45 @@
 # Quiz Game
 
-A simple console-based quiz game built in Java. The game presents a series of questions with multiple-choice answers. Players select their answers, and the game provides feedback on correctness and calculates the final score.
+A simple quiz game built using Java.
 
 ## Features
 
-- Multiple-choice questions with a set of predefined options
-- Provides feedback on the correctness of the answer
-- Calculates and displays the final score after all questions are answered
+- Multiple-choice questions.
+- Immediate feedback on whether the chosen answer is correct or incorrect.
+- Final score display at the end of the quiz.
 
-## Usage
+## Requirements
 
-1. Compile the Java file:
-    ```sh
+- Java Development Kit (JDK) installed.
+
+## Setup and Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/quiz-game.git
+    cd quiz-game
+    ```
+
+2. **Compile the application**:
+    ```bash
     javac quizgame.java
     ```
 
-2. Run the compiled class:
-    ```sh
+3. **Run the application**:
+    ```bash
     java quizgame
     ```
+
+## Usage
+
+1. Run the game using the above commands.
+2. Answer the questions by entering the number corresponding to your choice (1-4).
+3. Receive immediate feedback on your answers.
+4. View your final score at the end of the quiz.
+
+## Contribution
+
+Feel free to fork this repository and make improvements. Pull requests are welcome!
 
 ## License
 
